@@ -1,26 +1,26 @@
 class Statelet < Formula
   desc "Distributed key-value storage engine with LSM-tree, Raft, and vector index"
   homepage "https://github.com/stateletlab/statelet"
-  version "0.1.3"
+  version "0.1.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.3/statelet-0.1.3-darwin-arm64.tar.gz"
-      sha256 "7ac6b9211978c34482de29311ff2db9917f539dfc94707ec0a8e1882e7065101"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-darwin-arm64.tar.gz"
+      sha256 "25e4c4ad5147705586d4a4fa43a2aee34f3581c0ac6c43c0c8d8ec1b86a510c6"
     else
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.3/statelet-0.1.3-darwin-amd64.tar.gz"
-      sha256 "b18bca2ad2a142205bd55e6ff3a67eb6d2396af114f25740e2ba4f80e92a52eb"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-darwin-amd64.tar.gz"
+      sha256 "c6edb88e66c661e9feed57d1c87d3c1b145a667030f8cca3cfe5e1b9a9d0fd93"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.3/statelet-0.1.3-linux-arm64.tar.gz"
-      sha256 "62f08c7ad5cefb786bce7416c698c0c1947421f5e71a7f0fba99d8987904b6c8"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-linux-arm64.tar.gz"
+      sha256 "7124dcea46baaf262bb1dae85d392b5d7b5fa451407c21541d02254ab2f2ea8d"
     else
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.3/statelet-0.1.3-linux-amd64.tar.gz"
-      sha256 "b96dd235515aa388733f0be6ac2c17d851391038fabfc9e0d2e5b5e0ee0392e8"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-linux-amd64.tar.gz"
+      sha256 "5f1f87556fe438d115bf6595a7d35017c3d8b30bdc9f6c9b00800cee86f9efec"
     end
   end
 
