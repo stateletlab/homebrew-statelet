@@ -7,20 +7,20 @@ class Statelet < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-darwin-arm64.tar.gz"
-      sha256 "45ad76ffc26791ef2b65266d6813e796764e60d7232cb331bf235f4ac9052aba"
+      sha256 "fafaef627a3d17ee89cd19564457cc8a074401abbf2032a2e27b9e221bd30c85"
     else
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-darwin-amd64.tar.gz"
-      sha256 "b51480ebfd720dae8f578e3c54b13743a54d8cbb91cb3d8c84cf0d8d6df2c47b"
+      sha256 "602e7464f9fc3f1daf1d61c4c9e3054df608cfc2e17e16d0b33de359e070257a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-linux-arm64.tar.gz"
-      sha256 "629f0c3a98b56f909cec8d3a1a95d1615328ad8e9c8270a93fb32d9c97bd925c"
+      sha256 "5c7dc80bcb06094f4015f86d081527e9a83363ce3ea01c3f4bad44ad7a8d31fe"
     else
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.4/statelet-0.1.4-linux-amd64.tar.gz"
-      sha256 "55c12e9228d84ca832ea603e6a93e575c4e5192855993d57253ce537aa27a32c"
+      sha256 "f9b54f7991fcadcd7be4347473daae52c4ce3fc154665eb662bb054968fc195e"
     end
   end
 
@@ -29,6 +29,7 @@ class Statelet < Formula
     bin.install "statelet-datanode"
     bin.install "statelet-gateway"
     bin.install "statelet-cli"
+    bin.install "statelet-admin"
     bin.install "statelet-cluster"
     # The gateway resolves the admin UI as ../share/statelet/ui from
     # its own location, so this is the path it will look in.
