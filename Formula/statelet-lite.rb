@@ -7,20 +7,20 @@ class StateletLite < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-darwin-arm64.tar.gz"
-      sha256 "a462da53553e1e34c5a2e6489642f85afeb1cb2600f4118c81d8a3cdb2af4f13"
+      sha256 "0e8221f32a0007d255fb810ff5d2708fb7f42ba5455f8170c3ab9b65d29cb295"
     else
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-darwin-amd64.tar.gz"
-      sha256 "d2e4a980d9ac88f2d7231b9ddc487a4d2449f6d9519fe36197d541af7237a9d3"
+      sha256 "f98a2c14d0df7efc600fddbbaf680f43dd95f8c1a92bb6eda03488ca27ca2042"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-linux-arm64.tar.gz"
-      sha256 "baa7ddf2e652e869d04914057e991fd1a18be9dd5a871c7d74b701612e48ddc4"
+      sha256 "3464f55e1d5db3869236b70e570ae081a9cef26e215effe25b61b13bc60deca3"
     else
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-linux-amd64.tar.gz"
-      sha256 "4341514bbfb49127fad89bf8ff8a39412dfcb7f30c19f03ffcd491ade83830f7"
+      sha256 "fc5f11c00dc078f6600556bb8d0f3e9af2c7263204179333dcd2427c95a20891"
     end
   end
 
