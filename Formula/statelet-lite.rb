@@ -1,26 +1,26 @@
 class StateletLite < Formula
   desc "Single-node Statelet database in one binary"
   homepage "https://github.com/stateletlab/statelet"
-  version "0.1.4"
+  version "0.1.5"
   license "FSL-1.1-ALv2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-darwin-arm64.tar.gz"
-      sha256 "1134f4482f54e925e7578e2299c46508eae04893a51e4e9724c55a011566cc83"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-darwin-arm64.tar.gz"
+      sha256 "0b75c0f74b746dd2bb1feab2cd45c3ff9398c5777d3e8ca788a2eae571f5f254"
     else
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-darwin-amd64.tar.gz"
-      sha256 "a4449ab8fbd1e6c1cfa9aa7fd9abb6ac368f7eff5581cf9e7a3aad137a698ae0"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-darwin-amd64.tar.gz"
+      sha256 "5d32ad7b59af320c408edf649b36ddf44697e00bf1570fa33dc0a2d9f40f0751"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-linux-arm64.tar.gz"
-      sha256 "86dc17cf9b82d05a449f798771f277d64c73da87579ccba16dae031da16d394b"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-linux-arm64.tar.gz"
+      sha256 "445fcb14a37ee14d478ad3ab7e7e3378d39c1a90781a3f08edd6cff1a5c74890"
     else
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.4/statelet-lite-0.1.4-linux-amd64.tar.gz"
-      sha256 "1355dc43399bc06053f642b6706e5147737ef94188f48782a6acdac53d32b052"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-linux-amd64.tar.gz"
+      sha256 "f23ee8df7ab68e77e8f1ce3330e81030ba80b09f67870b18a8a049dbf118103d"
     end
   end
 
