@@ -1,26 +1,26 @@
 class StateletLite < Formula
   desc "Single-node Statelet database in one binary"
   homepage "https://github.com/stateletlab/statelet"
-  version "0.1.5"
+  version "0.1.6"
   license "FSL-1.1-ALv2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-darwin-arm64.tar.gz"
-      sha256 "3e62f5c571373403e01c576c674dd47dac295d98a71aaa23787bb006c1fb5a70"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.6/statelet-lite-0.1.6-darwin-arm64.tar.gz"
+      sha256 "5632120019136320f2f0232f4765993ec195ae33c1c2183ed5ebcfcdd1627c2f"
     else
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-darwin-amd64.tar.gz"
-      sha256 "86e26abaa366646ef881e9050525c3a2bebcb7efd8535c8f817b66fa6601d8fb"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.6/statelet-lite-0.1.6-darwin-amd64.tar.gz"
+      sha256 "3c12b720718da5aa4aa15dcb0c3053beb1d303c45184b1b82153c434ba290f8e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-linux-arm64.tar.gz"
-      sha256 "0323bea62a5a93ccda28e40ae3cfb91caed26b6bd2b74f92138c7f1e10a10ed6"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.6/statelet-lite-0.1.6-linux-arm64.tar.gz"
+      sha256 "e1eadbc69267a0907d82112be68c1fcb3d58601d478d05f5399cc5974e59dec3"
     else
-      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.5/statelet-lite-0.1.5-linux-amd64.tar.gz"
-      sha256 "68ceae222a137ed0f136b5d83bcfa31550df3208a53cc857612c32b09dc5a4d8"
+      url "https://github.com/stateletlab/statelet-longmemeval/releases/download/lite-v0.1.6/statelet-lite-0.1.6-linux-amd64.tar.gz"
+      sha256 "450d2e959dec29ff3a54516b0b1b1cb6854fbeb66c386fca4e97dfb46d9c899f"
     end
   end
 
