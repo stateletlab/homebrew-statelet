@@ -7,20 +7,20 @@ class Statelet < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.6/statelet-0.1.6-darwin-arm64.tar.gz"
-      sha256 "589a412520a87ae3cdd93afdb11592f7cde5a796958fa61ca0e0cf77709b99be"
+      sha256 "76f7021399f7a3cc27ef99e6eb8749633fd734ad2a7bb623fdac84e192a0880b"
     else
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.6/statelet-0.1.6-darwin-amd64.tar.gz"
-      sha256 "a16612f40c682ed5e92428c2984dbac604effe61b9d4b24a1282e858dff8c79f"
+      sha256 "1e3606a33c174db9b4b2466b5b9541c2b983f371a3a68fd17a9c6e3d58ee4ba0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.6/statelet-0.1.6-linux-arm64.tar.gz"
-      sha256 "93623d5370799fa2adc4ab6f2d86c65a45228babf4e187a7ccd4ab640709520d"
+      sha256 "b815177bfc8bbc1863d4266546905cf1ff52c7038dd9bf794d1b588328fb4e47"
     else
       url "https://github.com/stateletlab/statelet-longmemeval/releases/download/v0.1.6/statelet-0.1.6-linux-amd64.tar.gz"
-      sha256 "6bc887410f6bb5360f0686a95685798f5e05702be5cd763f3416658805c03217"
+      sha256 "5073958e9ba41e30fa575b79b4fea4e4044f2f13b58ff705bb8c6cbe84930861"
     end
   end
 
